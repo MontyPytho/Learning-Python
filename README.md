@@ -1,6 +1,5 @@
 # Learning-Python
 Tutorials, and fooling around
 
-FBGM
-
-Fake Barley Great Marley
+Things going well.
+This is an edit for shits and giggles
