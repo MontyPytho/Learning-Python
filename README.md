@@ -16,4 +16,3 @@ write documents
 scan new sources for infornation i give a shti about
 help schedule things as well as remind me of them
 play music
-
