@@ -16,3 +16,6 @@ write documents
 scan new sources for infornation i give a shti about
 help schedule things as well as remind me of them
 play music
+tell shannon i love her all the time
+send texts and make calls
+integrate with raberry pi so i can start controlling thngs
