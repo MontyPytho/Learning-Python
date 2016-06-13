@@ -28,7 +28,8 @@ print(name)
 
 # The arithmetic operators +, -, *, /, %, **, //
 # ** Exponential calculation
-# // Floor Division
+# // Floor Division throw out remainder
+# % Modulus is returning only the remainder
 print("5 + 2 =", 5 + 2)
 print("5 - 2 =", 5 - 2)
 print("5 * 2 =", 5 * 2)
