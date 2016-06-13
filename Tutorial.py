@@ -28,7 +28,7 @@ print(name)
 
 # The arithmetic operators +, -, *, /, %, **, //
 # ** Exponential calculation
-# // Floor Division
+# // Floor Division throws out the remainder
 # % Modulus Shows only the remainder
 print("5 + 2 =", 5 + 2)
 print("5 - 2 =", 5 - 2)
@@ -206,3 +206,16 @@ elif not (age == 30):
     print("You don't get a birthday party")
 else:
     print("You get a birthday party yeah")
+
+for x in range(0,  10):
+    print(x, end ='')
+    
+print('\n')
+
+for y in grocery_list:
+    print(y)
+    
+for x in [2, 3, 4, 5, 6, 7, 8, 9, 10]:
+    print(x,  end='')
+    
+    
