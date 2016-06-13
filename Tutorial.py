@@ -28,8 +28,8 @@ print(name)
 
 # The arithmetic operators +, -, *, /, %, **, //
 # ** Exponential calculation
-# // Floor Division throw out remainder
-# % Modulus is returning only the remainder
+# // Floor Division throws out the remainder
+# % Modulus Shows only the remainder
 print("5 + 2 =", 5 + 2)
 print("5 - 2 =", 5 - 2)
 print("5 * 2 =", 5 * 2)
@@ -51,6 +51,7 @@ quote = "\"Always remember your unique,"
 multi_line_quote = ''' just
 like everyone else" '''
 
+# String concatenation
 print(quote + multi_line_quote)
 
 # To embed a string in output use %s
@@ -206,3 +207,30 @@ elif not (age == 30):
     print("You don't get a birthday party")
 else:
     print("You get a birthday party yeah")
+
+# FOR LOOPS -------------
+# Allows you to perform an action a set number of times
+# Range performs the action 10 times 0 - 9
+for x in range(0, 10):
+    print(x , ' ', end="")
+ 
+print('\n')
+ 
+# You can use for loops to cycle through a list
+grocery_list = ['Juice', 'Tomatoes', 'Potatoes', 'Bananas']
+ 
+for y in grocery_list:
+    print(y)
+ 
+# You can also define a list of numbers to cycle through
+for x in [2,4,6,8,10]:
+    print(x)
+ 
+# You can double up for loops to cycle through lists
+num_list =[[1,2,3],[10,20,30],[100,200,300]];
+ 
+for x in range(0,3):
+    for y in range(0,3):
+        print(num_list[x][y])
+ 
+    
