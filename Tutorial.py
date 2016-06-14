@@ -257,5 +257,15 @@ while (i <= 20):
         continue
  
     i += 1
+
+ # USER INPUT -------------
+print('What is your name?')
  
-    
+# sys.stdin.readline takes a size argurment
+name = sys.stdin.readline()
+
+# print takes a prompt arguement
+name = input()
+ 
+print('Hello', name)
+ 
