@@ -51,7 +51,7 @@ quote = "\"Always remember your unique,"
 multi_line_quote = ''' just
 like everyone else" '''
 
-# String concatination
+# String concatenation
 print(quote + multi_line_quote)
 
 # To embed a string in output use %s
