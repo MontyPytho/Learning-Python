@@ -141,6 +141,7 @@ new_tuple = list(pi_tuple)
 # DICTIONARY or MAP -------------
 # Made up of values with a unique key for each value
 # Similar to lists, but you can't join dicts with a +
+# {"Key" : "Value"}
 
 super_villains = {'Fiddler': 'Isaac Bowin',
                   'Captain Cold': 'Leonard Snart',
