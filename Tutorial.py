@@ -100,7 +100,7 @@ print(grocery_list)
 grocery_list.remove("Pickle")
 print(grocery_list)
 
-# Sorts items in list
+# Sorts items in list alphabetically or numericaly  
 grocery_list.sort()
 print(grocery_list)
 
