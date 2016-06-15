@@ -69,7 +69,7 @@ print('\n' * 5)
 # Each value has an index with the first one starting at 0
 
 grocery_list = ['Juice', 'Tomatoes', 'Potatoes', 'Bananas']
-print('The first item is', grocery_list[1])
+print('The first item is', grocery_list[0])
 
 # You can change the value stored in a list box
 grocery_list[0] = "Green Juice"
@@ -94,15 +94,19 @@ print(to_do_list)
 
 # Insert item at given index
 grocery_list.insert(1, "Pickle")
+print(grocery_list)
 
 # Remove item from list
 grocery_list.remove("Pickle")
+print(grocery_list)
 
 # Sorts items in list
 grocery_list.sort()
+print(grocery_list)
 
 # Reverse sort items in list
 grocery_list.reverse()
+print(grocery_list)
 
 # del deletes an item at specified index
 del grocery_list[4]
